@@ -7,15 +7,15 @@ import {ToastContainer, toast} from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import Image from 'next/image'
 
-const Contact: React.FC = () => {
+const Contact = () => {
 
-   const [surname_k, setSurname_k] = useState<string>('')
-   const [lastname_k, setLastname_k] = useState<string>('')
-   const [email_k, setEmail_k] = useState<string>('')
-   const [telefon_k, setTelefon_k] = useState<string>('')
-   const [anliegen, setAnliegen] = useState<string>('')
+   const [surname_k, setSurname_k] = useState('')
+   const [lastname_k, setLastname_k] = useState('')
+   const [email_k, setEmail_k] = useState('')
+   const [telefon_k, setTelefon_k] = useState('')
+   const [anliegen, setAnliegen] = useState('')
 
-   function sendEmail(e: React.FormEvent<HTMLFormElement>){
+   function sendEmail(e){
       e.preventDefault();
       emailjs.sendForm(
         'service_zps2th1',
