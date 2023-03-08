@@ -1,7 +1,7 @@
 "use client"
 import React, {useState} from 'react'
 import { EnvelopeIcon, PhoneIcon } from '@heroicons/react/24/outline'
-import emailjs from 'emailjs-com'
+//import emailjs from 'emailjs-com'
 import Dog from '../images/dog.png'
 import {ToastContainer, toast} from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
@@ -15,7 +15,7 @@ const Contact = () => {
    const [telefon_k, setTelefon_k] = useState('')
    const [anliegen, setAnliegen] = useState('')
 
-   function sendEmail(e){
+   /*function sendEmail(e){
       e.preventDefault();
       emailjs.sendForm(
         'service_zps2th1',
@@ -33,7 +33,7 @@ const Contact = () => {
          toast.error(`Leider hat was nicht geklappt`)
          console.log(err);
       });
-    }
+    }*/
 
   return (
   <>
