@@ -29,9 +29,7 @@ function Footer() {
                       <Image
                       alt=''
                       src={Logo}
-                      height={80}
-                      width={160}
-                      className='mr-3 '/>
+                      className='mr-3 mt-4 h-[70px] w-[110px] md:h-[90px] md:w-[160px] md:mt-0'/>
                 </Link>
               
               </div>

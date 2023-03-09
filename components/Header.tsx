@@ -15,19 +15,20 @@ function Header() {
         setToggle(!toggle);
     }
 
+
+
   return (
     <div className="font-merri">
        
-        <nav className="fixed w-full p-2 z-50 bg-bg">
+        <nav className="fixed w-full  z-50 bg-bg">
             
-            <div className="flex items-center justify-between">
+            <div className="flex items-center p-2 justify-between">
                 <div className="p-4 cursor-pointer">
     	            <a href="/">
                         <Image
                            src={Logo}
                            alt=""
-                           height={90}
-                           width={160}/>
+                           className="h-[70px] w-[110px] md:h-[90px] md:w-[160px]"/>
                     </a>    
                 </div>
                 <Slide>
@@ -71,21 +72,21 @@ function Header() {
         {
           toggle && (
             <div>
-               <div className='absolute flex flex-col items-center  self-end 
-              py-8 mt-15 space-y-6 text-xl  sm:w-auto 
-              sm:self-center left-6 right-6 drop-shadow-xl transition-all text-main_text bg-bg'>
+               <div className='absolute flex flex-col items-center 
+              h-fit space-y-4 w-full text-xl  sm:w-auto 
+              sm:self-center   drop-shadow-xl transition-all text-main_text bg-bg'>
                     
-                    <ScrollLink activeClass="active" to="about" smooth="true" className="header-element">
+                    <ScrollLink activeClass="active" to="about" smooth="true" onClick={() => toggleModal()} className="header-element">
                         Über uns
                     </ScrollLink>
-                    <ScrollLink activeClass="active" to="opening" smooth="true" className="header-element">
+                    <ScrollLink activeClass="active" to="opening" smooth="true"  onClick={() => toggleModal()} className="header-element">
                         Öffnungszeiten
                     </ScrollLink>
-                    <ScrollLink activeClass="active" to="gallery" smooth="true" className="header-element">
+                    <ScrollLink activeClass="active" to="gallery" smooth="true" onClick={() => toggleModal()} className="header-element">
                         Gallerie
                     </ScrollLink>
                 <div className='block p-3 px-6 pt-2 cursor-pointer text-white'>
-                <ScrollLink activeClass="active" to="kontakt" smooth="true">
+                <ScrollLink activeClass="active" to="kontakt" onClick={() => toggleModal()} smooth="true">
                         <button
                         className='px-8 py-2 color-black rounded-full tracking-widest hover:scale-110 transition-all drop-shadow-md bg-main'>
                           Kontakt
