@@ -48,13 +48,13 @@ Wir weisen darauf hin, dass die Datenübertragung im Internet (z. B. bei der Kom
 Hinweis zur verantwortlichen Stelle<br/>
 Die verantwortliche Stelle für die Datenverarbeitung auf dieser Website ist:
 <br/><br/>
-Firmenname<br/>
-Inhaberin Mustermann
+Das Blumencafe<br/>
+Bettina Thünemann
 <br/><br/>
-Mustermannstraße 5, 12345 Stadt<br/>
-Telefon: +0 123 456789
+Bahnhofstraße 37, 48268 Greven<br/>
+Telefon: 02572 9385979
 <br/><br/>
-E-Mail: info@firmenname.de
+E-Mail: blumencafe.kontakt@gmail.com
 <br/><br/>
 Verantwortliche Stelle ist die natürliche oder juristische Person, die allein oder gemeinsam mit anderen über die Zwecke und Mittel der Verarbeitung von personenbezogenen Daten (z. B. Namen, E-Mail-Adressen o. Ä.) entscheidet.
 <br/><br/>
