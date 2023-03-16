@@ -33,9 +33,6 @@ function Header() {
                 </div>
                 <Slide>
                 <div className="hidden md:flex items-center space-x-5 text-xl lg:space-x-14 text-white">
-                    <ScrollLink activeClass="active" to="about" smooth="true" className="header-element">
-                        Über uns
-                    </ScrollLink>
                     <ScrollLink activeClass="active" to="opening" smooth="true" className="header-element">
                         Öffnungszeiten
                     </ScrollLink>
@@ -76,9 +73,7 @@ function Header() {
               h-fit space-y-4 w-full text-xl  sm:w-auto 
               sm:self-center   drop-shadow-xl transition-all text-main_text bg-bg'>
                     
-                    <ScrollLink activeClass="active" to="about" smooth="true" onClick={() => toggleModal()} className="header-element">
-                        Über uns
-                    </ScrollLink>
+
                     <ScrollLink activeClass="active" to="opening" smooth="true"  onClick={() => toggleModal()} className="header-element">
                         Öffnungszeiten
                     </ScrollLink>

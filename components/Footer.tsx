@@ -2,7 +2,7 @@
 import React from 'react'
 import {animateScroll as scroll} from 'react-scroll';
 import Logo from '../images/logo.png';
-import Instagram from '../images/instagram.png';
+import Instagram from '../images/icons/instagram.png';
 import { ArrowUpIcon } from '@heroicons/react/24/outline';
 import Link from 'next/link';
 import {Link as ScrollLink} from 'react-scroll'

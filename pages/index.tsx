@@ -7,6 +7,16 @@ import Gallery from '../components/Gallery'
 import Hero from '../components/Hero'
 import OpeningHours from '../components/OpeningHours'
 
+
+/*  Things to ToDo:
+
+  [] Cutting out the About Section
+  [] Herzlich Willkommen im Blumencafe
+  [] Selbstbedinung
+  [] Coffee to go 
+*/
+
+
 const Home: NextPage = () => {
   return (
    <>

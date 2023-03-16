@@ -1,6 +1,11 @@
 import Image from 'next/image'
 import React from 'react'
-import Jobs from '../images/jobs-background.jpg'
+import One from '../images/jobs-background.jpg'
+import Two from '../images/gallerie_one.jpg'
+import Third from '../images/gallerie_two.jpg'
+import Four from '../images/gallerie_three.jpg'
+import Five from '../images/gallerie_four.jpg'
+import Six from '../images/gallerie_five.jpg'
 
 const Gallery: React.FC = () => {
   return (
@@ -14,19 +19,19 @@ const Gallery: React.FC = () => {
           <Image
             alt="gallery"
             className="block h-full w-full rounded-lg object-cover object-center"
-            src={Jobs} />
+            src={One} />
         </div>
         <div className="w-1/2 p-1 md:p-2">
           <Image
             alt="gallery"
             className="block h-full w-full rounded-lg object-cover object-center"
-            src={Jobs}/>
+            src={Two}/>
         </div>
         <div className="w-full p-1 md:p-2">
           <Image
             alt="gallery"
             className="block h-full w-full rounded-lg object-cover object-center"
-            src={Jobs} />
+            src={Third} />
         </div>
       </div>
       <div className="flex w-1/2 flex-wrap">
@@ -34,19 +39,19 @@ const Gallery: React.FC = () => {
           <Image
             alt="gallery"
             className="block h-full w-full rounded-lg object-cover object-center"
-            src={Jobs} />
+            src={Four} />
         </div>
         <div className="w-1/2 p-1 md:p-2">
           <Image
             alt="gallery"
             className="block h-full w-full rounded-lg object-cover object-center"
-            src={Jobs} />
+            src={Five} />
         </div>
         <div className="w-1/2 p-1 md:p-2">
           <Image
             alt="gallery"
             className="block h-full w-full rounded-lg object-cover object-center"
-            src={Jobs} />
+            src={Six} />
         </div>
       </div>
     </div>

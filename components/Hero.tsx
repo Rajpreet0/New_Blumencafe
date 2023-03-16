@@ -14,9 +14,8 @@ const Hero: React.FC = () => {
       <div className='hero_content'>
        <Fade> 
         <div className='flex flex-col items-center justify-center h-screen text-white'> 
-            <h1 className='text-[45px] text-center tracking-widest font-dancing md:text-[70px]'>Das Blumencafe</h1>
-            <p className='text-lg p-2 w-full mt-[25px] text-center items-center md:w-[55%] md:text-xl'>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At</p>
-          
+            <h1 className='text-[30px] text-center tracking-widest font-dancing md:text-[55px]'>Willkommen im</h1>
+            <h1 className='text-[60px] text-center tracking-wides font-dancing md:text-[85px]'>Blumencafe</h1>
         </div>
        </Fade>
       </div>

@@ -2,7 +2,7 @@
 import React, {useState} from 'react'
 import { EnvelopeIcon, PhoneIcon } from '@heroicons/react/24/outline'
 import emailjs from '@emailjs/browser'
-import Dog from '../images/dog.png'
+import Dog from '../images/icons/dog.png'
 import {ToastContainer, toast} from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import Image from 'next/image'

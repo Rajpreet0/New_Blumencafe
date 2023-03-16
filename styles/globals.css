@@ -14,6 +14,9 @@
     .link-footers {
         @apply hover:underline cursor-pointer
     }
+    .information-cards {
+        @apply flex flex-col w-full items-center justify-center cursor-pointer mt-4 border-4 border-main bg-[#f4f4f4] hover:bg-main hover:text-white rounded-lg p-4 transition-all md:w-[30%] md:mt-0 
+    }
 }
 
 *::selection{
@@ -24,7 +27,7 @@
     display: flex;
     justify-content: center;
     padding: 0 30px;
-    height: 900px;
+    height: 800px;
     position: relative;
     z-index: 1;
 }
