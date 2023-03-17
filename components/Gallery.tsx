@@ -6,6 +6,7 @@ import Third from '../images/gallerie_two.jpg'
 import Four from '../images/gallerie_three.jpg'
 import Five from '../images/gallerie_four.jpg'
 import Six from '../images/gallerie_five.jpg'
+import Seven from '../images/gallerie_six.jpeg'
 
 const Gallery: React.FC = () => {
   return (
@@ -25,13 +26,13 @@ const Gallery: React.FC = () => {
           <Image
             alt="gallery"
             className="block h-full w-full rounded-lg object-cover object-center"
-            src={Two}/>
+            src={Seven}/>
         </div>
         <div className="w-full p-1 md:p-2">
           <Image
             alt="gallery"
             className="block h-full w-full rounded-lg object-cover object-center"
-            src={Third} />
+            src={Two} />
         </div>
       </div>
       <div className="flex w-1/2 flex-wrap">
@@ -52,6 +53,12 @@ const Gallery: React.FC = () => {
             alt="gallery"
             className="block h-full w-full rounded-lg object-cover object-center"
             src={Six} />
+        </div>
+        <div className="w-1/2 p-1 md:p-2">
+          <Image
+            alt="gallery"
+            className="block h-full w-full rounded-lg object-cover object-center"
+            src={Third} />
         </div>
       </div>
     </div>
