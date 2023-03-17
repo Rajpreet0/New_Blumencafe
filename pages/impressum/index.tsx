@@ -1,8 +1,26 @@
+import Head from 'next/head'
 import React from 'react'
 import Footer from '../../components/Footer'
 
 function Imprint() {
   return (
+    <>
+    <Head>
+    <title>Blumencafe Greven| Impressum des Cafés in Greven-Reckenfeld</title>
+     <link rel="icon" href="/favicon.ico" />
+     <meta name='viewport' content='width=device-width, initial-scale=1'/>
+     <link rel='canonical' href='https://blumencafe-greven.de'/>
+    <meta name='Author' content='Bettina Thünemann'/>
+     <meta
+      name="description"
+      content='Das Impressum - Entdecken Sie das beste Café Grevens! Wir bieten Ihnen eine entspannte Atmosphäre, köstlichen Kaffee und eine Auswahl an haugemachten Snacks und Gebäck'
+      key="desc"/>
+     <meta name="revisit-after" content='5 days'/>
+     <meta name='keywords' content='Impressum, Honet, kuchen, , Gerven, Reckenfeld,  das Blumencafe,Bettina Thünemann '/>
+     <meta name="robots" content="all" />
+     <meta name="google" content="notranslate" />
+     <meta itemProp='isFamilyFriendly' content='True'></meta>
+ </Head> 
     <div className='h-screen'>
     <h1 className='pt-40 text-center text-4xl tracking-wider text-black'>Impressum</h1>
             <br/>
@@ -63,6 +81,7 @@ function Imprint() {
             </div>
       <Footer/>
     </div>
+    </>
   )
 }
 

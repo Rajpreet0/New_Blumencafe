@@ -1,0 +1,28 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+        <urlset xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 
+      http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" 
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" 
+      xmlns:xhtml="http://www.w3.org/1999/xhtml">
+      
+
+	<url>
+		<loc>blumencafe-greven.de/vercel</loc>
+		<lastmod>2023-03-19</lastmod>
+	</url>
+    <url>
+		<loc>blumencafe-greven.de/</loc>
+		<lastmod>2023-03-19</lastmod>
+	</url>
+    <url>
+		<loc>blumencafe-greven/impressum</loc>
+		<lastmod>2023-03-19</lastmod>
+	</url>
+    <url>
+		<loc>blumencafe-greven/datenschutz</loc>
+		<lastmod>2023-03-19</lastmod>
+	</url>
+
+
+</urlset>

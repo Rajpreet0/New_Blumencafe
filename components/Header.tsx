@@ -27,7 +27,7 @@ function Header() {
     	            <a href="/">
                         <Image
                            src={Logo}
-                           alt=""
+                           alt="Blumencafe Logo in Greven"
                            className="h-[70px] w-[110px] md:h-[90px] md:w-[160px]"/>
                     </a>    
                 </div>

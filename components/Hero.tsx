@@ -9,7 +9,7 @@ const Hero: React.FC = () => {
   return (
     <div className="hero_container" id="home">
       <div className='hero_bg'>
-        <Image alt='' src={BackgroundImage} layout='fill' className='object-center'/>
+        <Image alt='Außenbereich des Blumencafes ' src={BackgroundImage} layout='fill' className='object-center'/>
       </div>
       <div className='hero_content'>
        <Fade> 

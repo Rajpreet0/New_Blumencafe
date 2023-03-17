@@ -27,7 +27,7 @@ function Footer() {
          
                 <Link href='/' className='flex  items-center'>
                       <Image
-                      alt=''
+                      alt='Blumencafe Logo in Greven'
                       src={Logo}
                       className='mr-3 mt-4 h-[70px] w-[110px] md:h-[90px] md:w-[160px] md:mt-0'/>
                 </Link>
@@ -41,9 +41,6 @@ function Footer() {
                     <ul className='text-main_text text-center'>
                         <li className='mb-4'>
                             <ScrollLink activeClass="active" to="home" smooth="true" className='link-footers'>Home</ScrollLink>
-                        </li>
-                        <li className='mb-4'>
-                            <ScrollLink href='/'  activeClass="active" to="about" smooth="true" className='link-footers'>Über uns</ScrollLink>
                         </li>
                         <li className='mb-4'>
                             <ScrollLink href='/' to='opening'  activeClass="active"   smooth="true" className='link-footers'>Öffnungszeiten</ScrollLink>
@@ -93,7 +90,7 @@ function Footer() {
                 <a href='https://www.instagram.com/blumencafe.greven/?hl=de' className=' hover:scale-105 transition-all'>
                   <Image
                     src={Instagram}
-                    alt=""
+                    alt="Instagram Logo zum Blumencafe Account"
                   />
                 </a>
              </div>

@@ -18,19 +18,19 @@ const Gallery: React.FC = () => {
       <div className="flex w-1/2 flex-wrap">
         <div className="w-1/2 p-1 md:p-2">
           <Image
-            alt="gallery"
+            alt="Gallerie - Kaffee Zubereitung im Blumencafe"
             className="block h-full w-full rounded-lg object-cover object-center"
             src={One} />
         </div>
         <div className="w-1/2 p-1 md:p-2">
           <Image
-            alt="gallery"
+            alt="Gallerie - Selbstgemachter Kuchen im Blumencafe in Greven"
             className="block h-full w-full rounded-lg object-cover object-center"
             src={Seven}/>
         </div>
         <div className="w-full p-1 md:p-2">
           <Image
-            alt="gallery"
+            alt="Gallerie - Spezieller Schwarzer Kaffee"
             className="block h-full w-full rounded-lg object-cover object-center"
             src={Two} />
         </div>
@@ -38,25 +38,25 @@ const Gallery: React.FC = () => {
       <div className="flex w-1/2 flex-wrap">
         <div className="w-full p-1 md:p-2">
           <Image
-            alt="gallery"
+            alt="Gallerie - Fruchtiger Kuchen mit Obst"
             className="block h-full w-full rounded-lg object-cover object-center"
             src={Four} />
         </div>
         <div className="w-1/2 p-1 md:p-2">
           <Image
-            alt="gallery"
+            alt="Gallerie - Theke mit Kartenzahlung"
             className="block h-full w-full rounded-lg object-cover object-center"
             src={Five} />
         </div>
         <div className="w-1/2 p-1 md:p-2">
           <Image
-            alt="gallery"
+            alt="Gallerie - Neueröffnung des Cafés in Reckenfeld"
             className="block h-full w-full rounded-lg object-cover object-center"
             src={Six} />
         </div>
         <div className="w-1/2 p-1 md:p-2">
           <Image
-            alt="gallery"
+            alt="Gallerie - Parkplatz in Greven am Blumencafe"
             className="block h-full w-full rounded-lg object-cover object-center"
             src={Third} />
         </div>

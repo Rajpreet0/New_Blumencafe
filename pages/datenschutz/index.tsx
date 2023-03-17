@@ -1,8 +1,27 @@
+import Head from 'next/head'
 import React from 'react'
 import Footer from '../../components/Footer'
 
 function Privacy() {
   return (
+    <>
+     <Head>
+    <title>Blumencafe Greven| Datenschutzerklärung des Cafés in Greven-Reckenfeld</title>
+     <link rel="icon" href="/favicon.ico" />
+     <meta name='viewport' content='width=device-width, initial-scale=1'/>
+     <link rel='canonical' href='https://blumencafe-greven.de'/>
+    <meta name='Author' content='Bettina Thünemann'/>
+     <meta
+      name="description"
+      content='Die Datenschutzerklärung - Entdecken Sie das beste Café Grevens! Wir bieten Ihnen eine entspannte Atmosphäre, köstlichen Kaffee und eine Auswahl an haugemachten Snacks und Gebäck'
+      key="desc"/>
+     <meta name="revisit-after" content='5 days'/>
+     <meta name='keywords' content='Datenschutz, Erklärung, Datenschutzerklärung,  Gerven, Reckenfeld,  das Blumencafe,Bettina Thünemann '/>
+     <meta name="robots" content="all" />
+     <meta name="google" content="notranslate" />
+     <meta itemProp='isFamilyFriendly' content='True'></meta>
+ </Head> 
+    
     <div className='h-screen'>
         <div className='min-h-screen pt-40 p-6'>
         <h1 className='text-2xl'>Datenschutzerklärung</h1>
@@ -146,6 +165,7 @@ Mehr Informationen zum Umgang mit Nutzerdaten finden Sie in der Datenschutzerkl�
         </div>
         <Footer/>
     </div>
+    </>
   )
 }
 
