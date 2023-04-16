@@ -1,6 +1,5 @@
 import '../styles/globals.css'
 import type { AppProps } from 'next/app'
-import Header from '../components/Header'
 import Script from 'next/script'
 
 function MyApp({ Component, pageProps }: AppProps) {
@@ -20,7 +19,7 @@ function MyApp({ Component, pageProps }: AppProps) {
      `}
    </Script>
 
-    <Header/>
+
     <Component {...pageProps} />
  
   </>

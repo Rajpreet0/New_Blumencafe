@@ -1,10 +1,11 @@
 import Head from 'next/head'
 import React from 'react'
 import Footer from '../../components/Footer'
+import Header from '../../components/Header'
 
 function Privacy() {
   return (
-    <>
+   <> 
      <Head>
     <title>Blumencafe Greven| Datenschutzerklärung des Cafés in Greven-Reckenfeld</title>
      <link rel="icon" href="/favicon.ico" />
@@ -21,7 +22,7 @@ function Privacy() {
      <meta name="google" content="notranslate" />
      <meta itemProp='isFamilyFriendly' content='True'></meta>
  </Head> 
-    
+   <Header/>
     <div className='h-screen'>
         <div className='min-h-screen pt-40 p-6'>
         <h1 className='text-2xl'>Datenschutzerklärung</h1>

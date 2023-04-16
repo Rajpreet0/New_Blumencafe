@@ -63,6 +63,9 @@ function Footer() {
                         <li className='mb-4'>
                             <Link href='/datenschutz' className='link-footers'>Datenschutz</Link>
                         </li>
+                        <li className='mb-4'>
+                            <Link href='/studio' className='link-footers'>Studio</Link>
+                        </li>
                     </ul>
                  </div>
 

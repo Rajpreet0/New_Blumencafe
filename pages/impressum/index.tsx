@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import React from 'react'
 import Footer from '../../components/Footer'
+import Header from '../../components/Header'
 
 function Imprint() {
   return (
@@ -21,6 +22,7 @@ function Imprint() {
      <meta name="google" content="notranslate" />
      <meta itemProp='isFamilyFriendly' content='True'></meta>
  </Head> 
+ <Header/>
     <div className='h-screen'>
     <h1 className='pt-40 text-center text-4xl tracking-wider text-black'>Impressum</h1>
             <br/>

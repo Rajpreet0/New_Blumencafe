@@ -50,7 +50,7 @@ const About: React.FC = () => {
         <div className='information-cards md:w-[40%]'>
           <Image src={Events} alt="Vermietbare Räumlichkeiten im Blumencafe zweiter Stock " className='w-24 h-24'/>
           <h2 className='mt-4 text-2xl'>Räumlichkeiten</h2>
-          <p className='mt-2 p-1 text-[#979797]'>Unsere helles Café Räumlichkeiten sind ideal für Seminare, Coaching, Vereinstreffen und andere geschäftliche Veranstaltungen. Ausgestattet mit  Platz für Gruppen, bieten sie eine ruhige und produktive Umgebung für Ihre Teilnehmer. Auch außerhalb der Öffnungszeiten möglich!</p>
+          <p className='mt-2 p-1 text-[#979797]'>Unsere helles Café Räumlichkeiten sind ideal für Seminare, Coaching, Vereinstreffen und andere geschäftliche Veranstaltungen. Ausgestattet mit Beamer, Flipchart und Platz für Gruppen, bieten sie eine ruhige und produktive Umgebung für Ihre Teilnehmer.<span className='font-bold'>Öffnungszeiten können auch angepasst werden!</span></p>
           <ScrollLink activeClass="active" to="kontakt" smooth="true">
             <button className='p-3 bg-bg text-center pr-8 pl-8 rounded-md text-white drop-shadow-md hover:scale-105 transition-all'>Kontakt</button>
           </ScrollLink>
