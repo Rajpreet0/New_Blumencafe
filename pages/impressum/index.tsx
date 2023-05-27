@@ -37,7 +37,7 @@ function Imprint() {
                  <br/>
                  <h4 className='font-bold'>Kontakt:</h4>
                  <br/>
-                 <p>02572 9385979</p>
+                 <p>02575 9385979</p>
                  <p>blumencafe.kontakt@gmail.com</p>
                  <br/>
                  <h4 className='font-bold'>Inhaltlich Verantwortlicher gemäß § 55 RStV:</h4>

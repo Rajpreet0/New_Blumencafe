@@ -145,7 +145,7 @@ const Contact = () => {
                      <div className='flex ml-0 mt-4 md:ml-5 md:mt-0'>
                        <PhoneIcon
                         className='w-6 h-6 mr-2 '/>
-                        <p className='cursor-pointer hover:underline'><a href='tel:02572 9385979'>02572 9385979</a></p>
+                        <p className='cursor-pointer hover:underline'><a href='tel:02572 9385979'>02575 9385979</a></p>
                      </div>
                  </div>
                  <iframe 

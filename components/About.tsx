@@ -21,12 +21,12 @@ const About: React.FC = () => {
           <div className='information-cards'>
             <Image src={SelfService} alt="Selbstbedienung an der Blumencafe Theke" className='w-24 h-24'/>  
             <h2 className='mt-4 text-2xl'>Selbstbedienung</h2>
-            <p className='mt-2 p-1 text-[#979797]'>Entdecke die Freiheit der Selbstbedienung! Kein Warten in Schlangen oder umständliches Bestellen - mit Selbstbedienung bist du dein eigener Herr.</p>
+            <p className='mt-2 p-1 text-[#979797]'>Entdecke die Freiheit der Selbstbedienung! Kein Warten in Schlangen oder umständliches Bestellen - mit Selbstbedienung sind Sie Ihr eigener Herr.</p>
           </div>
           <div className='information-cards'>
             <Image src={Baker} alt="Kuchen, Torten im Blumencafe" className='w-24 h-24'/>  
             <h2 className='mt-4 text-2xl'>Frisch zubereitet</h2>
-            <p className='mt-2 p-1 text-[#979797]'>Kuchen, die begeistern!  Jeder Kuchen wird von Hand mit viel Liebe und Sorgfalt zubereitet, um dir ein einzigartiges Geschmackserlebnis zu garantieren.</p>
+            <p className='mt-2 p-1 text-[#979797]'>Kuchen, die begeistern!  Jeder Kuchen wird von Hand mit viel Liebe und Sorgfalt zubereitet, um Ihnen ein einzigartiges Geschmackserlebnis zu garantieren.</p>
           </div>
        </div>
        <div className='flex flex-col  w-full h-[50%] justify-around items-center p-4 md:flex-row'>
